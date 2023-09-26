@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+
+int T;
+
+cin >> T;
+
+while (1 <= T)
+    {
+
+int x, y;
+
+cin >> x >> y;		//Here x is rent of cooler and y is price of cooler 
+      if (y > x)
+	{
+
+cout << y / x;
+
+}
+
+      else
+	{
+
+cout << "0";
+
+}
+
+T--;
+
+}
+
+return 0;
+
+}
